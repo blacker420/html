@@ -215,14 +215,14 @@ h4 + .element, h4 + div + .element { margin-top: -2.5em; padding-top: 2em; }
   z-index: 1;
 }
 .element:before {
+  content: ' ';
   position: absolute;
-  z-index: 2;
   top: 0;
   left: -2.05em;
+  z-index: 2;
+  background: #F4F4FA;
   height: 2em;
   width: 1.8em;
-  background: #F4F4FA;
-  content: ' ';
   border-style: none none solid solid;
   border-color: #9999FF;
   border-width: 0.25em;
